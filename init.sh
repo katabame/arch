@@ -3,13 +3,13 @@ git clone https://aur.archlinux.org/yay-bin.git
 cd yay-bin
 makepkg -si
 cd ../
-rm -rf ./yay
+rm -rf ./yay-bin
 
 yay -S google-chrome fcitx5-im fcitx5-mozc noto-fonts-cjk noto-fonts-emoji \
        discord 1password alacritty waybar github-cli fuzzel steam unzip \
        ttf-font-awesome pavucontrol lunar-client xivlauncher cider2-bin thunderbird \
-       obs-studio virtualbox cursor-bin prismlauncher-qt5-bin swaync wireplumber xremap-hypr-bin
-       
+       obs-studio virtualbox cursor-bin prismlauncher-qt5-bin swaync wireplumber xremap-hypr-bin \
+       wl-clipboard
 
 # xremap
 # wget -O xremap.zip https://github.com/xremap/xremap/releases/latest/download/xremap-linux-x86_64-hypr.zip
