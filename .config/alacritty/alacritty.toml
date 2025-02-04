@@ -1,0 +1,12 @@
+
+[window]
+padding = { x = 15, y = 15 }
+
+opacity = 0.7
+blur = true
+
+[general]
+import = [
+	"~/.config/alacritty/catppuccin-frappe.toml"
+]
+

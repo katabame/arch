@@ -1,0 +1,5 @@
+modmap:
+  - name: RAlt to IME toggle
+    remap:
+      RightAlt: F14
+      CapsLock: F13
